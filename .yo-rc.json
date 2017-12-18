@@ -22,12 +22,17 @@
     "enableSocialSignIn": false,
     "enableSwaggerCodegen": false,
     "jwtSecretKey": "4e7aa6438b5792017b6aa9d7107b462933cc56f9",
-    "enableTranslation": false,
+    "enableTranslation": true,
     "applicationType": "microservice",
     "testFrameworks": [],
     "jhiPrefix": "jhi",
     "clientPackageManager": "yarn",
     "skipClient": true,
-    "skipUserManagement": true
+    "skipUserManagement": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "fr"
+    ]
   }
 }
